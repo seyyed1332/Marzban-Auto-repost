@@ -90,9 +90,9 @@ Notes:
 After pushing to GitHub, run this on your Ubuntu server:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/<USER>/<REPO>/main/scripts/install_ubuntu.sh | \
+wget -qO- https://raw.githubusercontent.com/seyyed1332/Marzban-Auto-repost/main/scripts/install_ubuntu.sh | \
   sudo bash -s -- \
-    --repo-url https://github.com/<USER>/<REPO>.git \
+    --repo-url https://github.com/seyyed1332/Marzban-Auto-repost.git \
     --host 0.0.0.0 \
     --port 8000
 ```
@@ -108,5 +108,5 @@ sudo systemctl restart marzban-panel-hub
 Update (pull latest + restart):
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/<USER>/<REPO>/main/scripts/update_ubuntu.sh | sudo bash -s --
+wget -qO- https://raw.githubusercontent.com/seyyed1332/Marzban-Auto-repost/main/scripts/update_ubuntu.sh | sudo bash -s --
 ```
